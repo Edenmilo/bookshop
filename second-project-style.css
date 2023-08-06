@@ -1,0 +1,101 @@
+#heading {
+    background-color: rgb(54, 54, 162);
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+#nav-bar{background-color:rgb(205, 207, 209);
+    padding:5px; border: 1px gray solid;
+}
+
+#nav-bar a {
+    border-right: 2px gray solid;
+    color:gray ;  }
+
+.theme {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#new-relesaes img:hover {box-shadow: 10px 10px gray;
+    width: 110px;
+    height: 160px;
+    transition: 0.5s;
+}
+#fiction img:hover {box-shadow: 10px 10px gray;
+    width: 110px;
+    height: 160px;
+    transition: 0.5s;
+}
+#romance img:hover {box-shadow: 10px 10px gray;
+    width: 110px;
+    height: 160px;
+    transition: 0.5s;
+}
+#history img:hover {box-shadow: 10px 10px gray;
+    width: 110px;
+    height: 160px;
+    transition: 0.5s;
+}
+#cookbooks img:hover {box-shadow: 10px 10px gray;
+    width: 110px;
+    height: 160px;
+    transition: 0.5s;
+}
+#kids img:hover {box-shadow: 10px 10px gray;
+    width: 110px;
+    height: 160px;
+    transition: 0.5s;
+}
+#books{display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    }
+#social-medias{display:flex;
+justify-content: center;}
+#social-medias img{ padding: 10px;
+border-radius: 50px; margin: 5px;
+border: 1px solid black;}
+
+.facebook img:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.facebook:hover ~ .instegram img {
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+.facebook:hover ~ .youtube img {
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+.instegram img:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.instegram:hover ~ .facebook img {
+    transition: 0.5s;
+    transform: scale(0.8);
+}
+.instegram:hover ~ .youtube img {
+    transition: 0.5s;
+    transform: scale(0.8);
+}
+.youtube img:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.youtube:hover ~ .facebook img {
+    transition: 0.5s;
+    transform: scale(0.8);
+}
+.youtube:hover ~ .instegram img {
+    transition: 0.5s;
+    transform: scale(0.8);
+}
+
